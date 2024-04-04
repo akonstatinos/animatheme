@@ -1,0 +1,642 @@
+body {
+  font-family: "objektiv-mk1", sans-serif;
+  background-color: transparent !important;
+  background: radial-gradient(circle, #3c067b 0%, #1e0240 100%) !important;
+  color: #fff;
+}
+
+.menu > .nav-item > .nav-link {
+  font-family: "objektiv-mk1", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+}
+.header_area .navbar .navbar-nav .menu-item a:hover,
+.header_area .menu > .nav-item.active .nav-link,
+header.navbar_fixed .menu > .nav-item.active > .nav-link {
+  color: #c0ff00 !important;
+}
+.header_area,
+.header_area.navbar_fixed {
+  z-index: 1201;
+}
+.navbar-brand {
+  padding: 5px;
+}
+.nav_full_width nav.navbar,
+.nav_full_width.navbar_fixed nav.navbar {
+  padding: 0 10px;
+}
+a {
+  color: #c0ff00;
+}
+a:hover {
+  text-decoration: none;
+  color: #d9ff27;
+}
+
+td,
+th {
+  border-top: 1px solid #98a3ad;
+}
+
+/*
+body.body_dark {
+    color: #fff;
+}
+*/
+.wpcf7 input[type="submit"] {
+  float: right;
+}
+
+.wpcf7 input[type="submit"] ~ .wpcf7 .ajax-loader {
+  float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+table {
+  color: #c0ff00;
+  font-weight: 700;
+}
+p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.elementor-widget-text-editor h1 {
+  font-size: 22px !important;
+  line-height: 1.1 !important;
+}
+.elementor-widget-text-editor h2 {
+  font-size: 17px !important;
+  line-height: 1.1 !important;
+}
+.elementor-widget-text-editor h3,
+.elementor-widget-text-editor h4,
+.elementor-widget-text-editor h5,
+.elementor-widget-text-editor h6 {
+  font-size: 15px !important;
+  line-height: 1.1 !important;
+}
+/*
+.elem_text-1 p,
+.elem_text-1 h1,
+.elem_text-1 h2,
+.elem_text-1 h3,
+.elem_text-1 h4,
+.elem_text-1 h5,
+.elem_text-1 h6,
+.elem_text-1 label,
+.elem_text-1 table,
+.elem_text-1 ul,
+.elem_text ol
+{
+    color: #fff;
+}
+*/
+/*
+.body_dark p,
+.body_dark h1,
+.body_dark h2,
+.body_dark h3,
+.body_dark h4,
+.body_dark h5,
+.body_dark h6,
+.body_dark label,
+.body_dark table,
+.body_dark ul,
+.body_dark ol
+ {
+    color: #fff;
+
+}
+*/
+.header_area,
+.header_area.navbar_fixed {
+  background-color: rgba(0, 0, 17, 1);
+}
+
+.menu > .nav-item {
+  padding-bottom: 25.5px;
+  padding-top: 25.5px;
+}
+
+.elementor-widget-sidebar {
+  background-color: #3f0685;
+  border-radius: 25px;
+  font-size: 13px;
+  padding: 30px 15px;
+  background-image: url(https://play.anima.casino/wp-content/uploads/2024/04/logo-bg.svg);
+  background-position: right bottom -20px;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+.widget.sidebar_widget {
+  margin-top: 30px;
+}
+.elementor-widget-sidebar .widget.widget_nav_menu ul li a {
+  color: #c0ff00;
+}
+.elementor-widget-sidebar .widget.widget_nav_menu ul li a:hover {
+  color: #d9ff27;
+}
+.elementor-widget-sidebar .widget_media_image img {
+  width: 100%;
+}
+.footer_elementor {
+  color: #fff;
+}
+.footer_elementor a img {
+  height: initial;
+}
+.footer_elementor p {
+  color: #fff;
+}
+
+.footer_elementor a {
+  color: #fcc718;
+}
+
+.footer_elementor a:hover {
+  color: #fcef18;
+}
+
+.elementor-button {
+  background-color: #46a2f6;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.elementor-button:hover {
+  background-color: #2f6495;
+}
+.elementor-button.elementor-size-xs {
+  font-size: 19px;
+}
+
+.footer_elementor .menu {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer_elementor .menu a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.footer_elementor a {
+  color: #fcc718;
+}
+
+.f_social_icon {
+  margin: 1.1rem 0;
+}
+
+.f_social_icon a {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: #858da8;
+  display: inline-block;
+  background: transparent;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  color: #fff;
+}
+
+.footer_elementor .f_social_icon a:hover {
+  background-color: transparent;
+}
+
+.footer_elementor h5 {
+  color: #c0ff00;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
+}
+.footer_elementor {
+  padding: 20px;
+  background-color: #2f0563  ;
+}
+body.games-sidebar .footer_elementor {
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  body.games-sidebar .footer_elementor {
+    margin-left: 240px;
+  }
+}
+
+.footer_logo img {
+  width: 210px;
+}
+.elementor-widget.footer_textwidget-2, .elementor-widget.footer_textwidget-3 {
+  margin-bottom: 0;
+}
+.footer_textwidget-2 .elementor-widget-container,
+.footer_textwidget-3 .elementor-widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.footer_textwidget-2 img {
+  padding: 5px;
+}
+
+.footer_textwidget-3 img {
+  margin: 10px 0;
+  padding: 5px 8px;
+}
+@media (min-width: 786px) {
+  .footer_elementor .elementor-widget-wp-widget-nav_menu {
+    flex: 1;
+  }
+}
+
+.footer_elementor p {
+  font-size: 12px;
+  margin-bottom: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.footer_logo .elementor-image {
+  margin-bottom: 1.7rem;
+}
+
+.menu > .nav-item.active .nav-link:before,
+.menu > .nav-item:hover .nav-link:before {
+  display: none;
+}
+
+.current_page_item.menu_casino a {
+  color: #cf0075 !important;
+}
+.current_page_item.menu_live_casino a {
+  color: #4ac3e1 !important;
+}
+
+.current_page_item.menu_sports a {
+  color: #02a826 !important;
+}
+
+.current_page_item.menu_poker a {
+  color: #e71d24 !important;
+}
+
+.current_page_item.menu_lotto a {
+  color: #9518ff !important;
+}
+
+.elementor-heading-title {
+  margin-bottom: 0.5em;
+}
+
+.page_wrapper .elementor-section-full_width.fullh {
+  height: 100vh;
+}
+
+/* animacore plugin related changes */
+.main-navbar {
+  width: 30%;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.user-container {
+  color: white;
+}
+
+p img {
+  width: auto;
+}
+
+.main-navbar .btn-login {
+  background-color: #46a2f2;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 2px;
+  color: #fff;
+}
+.main-navbar .btn-login:hover {
+  background-color: #fff;
+  color: #46a2f2;
+}
+.main-navbar .btn-register {
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 20px;
+  color: #46a2f2;
+  border-radius: 2px;
+}
+.main-navbar .btn-register:hover {
+  background-color: #46a2f2;
+  color: #fff;
+}
+
+#headerActionButtons .logged-out-text {
+  color: #fff;
+  display: none;
+}
+
+#logged-out-section {
+  margin-top: 0;
+}
+
+#logged-in-section .user-icon {
+  color: #fcc718;
+}
+
+.top-panel-strip {
+  background: #46a2f2;
+}
+
+#logged-in-section {
+  min-width: 140px;
+}
+
+#menu-main-menu {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar-nav li {
+  border: 0;
+}
+.wpcf7 {
+  max-width: 500px;
+}
+.wpcf7 input[type="url"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea,
+.wpcf7 input[type="submit"],
+.wpcf7 select {
+  color: #000011;
+}
+
+.wpcf7 input[type="submit"] {
+  min-width: 120px;
+  padding: 12px 24px;
+  box-shadow: none;
+  font-size: 20px;
+  background-color: #46a2f6;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 700;
+  border: 0;
+}
+.wpcf7 input[type="submit"]:hover {
+  background-color: #2f6495;
+}
+.wpcf7 textarea {
+  height: 150px;
+}
+/*TEST*/
+header .navbar-right {
+  /*display: none;*/
+}
+
+.footer_elementor iframe {
+  vertical-align: middle;
+}
+/* END TEST*/
+/* MEDIA */
+
+@media (max-width: 1200px) {
+  .navbar-right {
+    position: absolute;
+    top: 6px;
+    right: 49px;
+    margin: 0 !important;
+    width: 180px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-collapse.collapse {
+    display: block !important;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    margin-right: -90px;
+    margin-left: -30px;
+  }
+}
+
+@media (max-height: 600px) {
+  .page_wrapper .elementor-section-full_width.fullh {
+    min-height: 600px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #logged-in-section {
+    margin-right: -60px;
+    margin-top: -6px;
+  }
+
+  .nav_full_width nav.navbar {
+    justify-content: initial;
+  }
+
+  .nav_full_width a.navbar-brand.sticky_logo img {
+    height: 55px;
+  }
+
+  .navbar-brand > img {
+    height: 35px;
+    width: auto !important;
+  }
+
+  .navbar-collapse,
+  .menu {
+    background: transparent;
+  }
+}
+header.header_area.navbar_fixed .menu_toggle .hamburger span {
+  background-color: #fff !important;
+}
+.footer_textwidget-1 img {
+  width: 85px;
+}
+@media (max-width: 767px) {
+  .section_bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-navbar {
+    width: auto;
+  }
+  .main_logo_img,
+  .sticky_logo_img {
+    display: none !important;
+  }
+
+  .header_area .navbar-brand {
+    background-image: url(https://play.anima.casino/wp-content/uploads/2024/04/logo-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .footer_elementor h5 {
+    display: none;
+  }
+  .footer_elementor .menu {
+    padding: 0;
+    text-align: center;
+  }
+  .footer_textwidget-2 .elementor-widget-container, .footer_textwidget-3 .elementor-widget-container {
+    justify-content: center;
+  }
+  .footer_col-4 .footer_textwidget-4 {
+    width: 50%;
+  }
+  .footer_col-4 .footer_widget-4 {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 568px) {
+  .nav_full_width a.navbar-brand.sticky_logo img {
+    height: 45px;
+    margin-top: 0;
+  }
+}
+#betby {
+  margin-top: 67px;
+}
+/* MyAffiliates */
+.elementor-default .chat-fc-form-outer div.fc-form ul li label {
+  position: absolute;
+  top: -16px;
+  font-weight: lighter;
+  margin-left: 3px;
+  margin-right: 8px;
+  padding: 0px 3px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #333;
+  font: 400 13px/18px "Poppins", sans-serif;
+}
+.elementor-default .chat-fc-form-outer div.fc-form p {
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  color: #333;
+  font: 400 15px/60px "Poppins", sans-serif;
+}
+.elementor-default .chat-fc-form-outer div.fc-form ul li input {
+  padding: 8px 6px;
+}
+.elementor-default li.pre-fc-field select {
+  color: #333;
+  border-radius: 3px;
+  border-color: rgb(221, 221, 221);
+  min-height: 40px;
+}
+.modal-open .modal {
+  background: transparent;
+  position: absolute;
+  height: 228px;
+  top: 50%;
+  left: 35%;
+  box-shadow: none;
+  z-index: 10;
+}
+.header_area .navbar .navbar-nav .menu-item a {
+  white-space: nowrap;
+}
+.game__iframe iframe {
+  min-height: 80vh;
+}
+@media (max-width: 1199px) {
+  .menu > .nav-item + .nav-item {
+    white-space: nowrap;
+  }
+  .game__iframe iframe {
+    min-height: 80vh;
+  }
+}
+.casino_view-live #gamesCatTab .nav-link.active,
+.casino_view-live #gamesCatTab .nav-link:focus {
+  background-color: #4ac3e1;
+}
+input[type="text"]._asb_text-input-input {
+  background-color: inherit;
+  box-shadow: none;
+  border: none;
+  padding-left: inherit;
+  -webkit-box-shadow: none;
+  height: inherit;
+  font: inherit;
+}
+@media (max-width: 991px) {
+  .navbar-right {
+    line-height: 50px;
+  }
+
+  .menu_toggle {
+    position: absolute;
+    right: 12px;
+    top: 18px !important;
+  }
+
+  .navbar {
+    min-height: 67px;
+  }
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cecece;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cecece;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cecece;
+}
+
+input[type="text"] {
+  height: 1.4375em;
+  background-color: transparent;
+  border: 0;
+}
